@@ -40,4 +40,4 @@ EditKaro
 
 ## 🌍 Live Demo
 
-🔗 
+🔗 https://uttampatnaik.github.io/EditKaro
