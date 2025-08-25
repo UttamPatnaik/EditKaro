@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in - Professional Video Editing & Social Media Marketing</title>
+    <meta name="description" content="Professional video editing and social media marketing agency specializing in short-form content, gaming videos, eCommerce ads, and more.">
+    
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">Editkaro.in</span>
+            </h1>
+            <p class="hero-subtitle">Professional Video Editing & Social Media Marketing</p>
+            <p class="hero-description">We create stunning visual content that captivates audiences and drives engagement across all platforms</p>
+            
+            <!-- Stats -->
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">50M+</div>
+                    <div class="stat-label">Views Generated</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="gradient-text">Portfolio</span></h2>
+                <p>Explore our diverse range of video content across multiple categories and platforms</p>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="category-filter" id="categoryFilter">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="short-form">Short-form</button>
+                <button class="filter-btn" data-category="long-form">Long-form</button>
+                <button class="filter-btn" data-category="gaming">Gaming</button>
+                <button class="filter-btn" data-category="football">Football</button>
+                <button class="filter-btn" data-category="ecommerce">eCommerce</button>
+                <button class="filter-btn" data-category="documentary">Documentary</button>
+                <button class="filter-btn" data-category="color-grading">Color Grading</button>
+                <button class="filter-btn" data-category="anime">Anime</button>
+            </div>
+
+            <!-- Video Grid -->
+            <div class="video-grid" id="videoGrid">
+                <!-- Videos will be inserted here by JavaScript -->
+            </div>
+
+            <!-- Empty State -->
+            <div class="empty-state" id="emptyState" style="display: none;">
+                <i class="fas fa-video-slash"></i>
+                <h3>No videos found</h3>
+                <p>Try selecting a different category to see more content.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="gradient-text">Services</span></h2>
+                <p>Comprehensive video editing and marketing solutions</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Short-form Content</h3>
+                    <p>Viral-ready content for TikTok, Instagram Reels, and YouTube Shorts</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-film"></i>
+                    <h3>Long-form Videos</h3>
+                    <p>Professional documentaries, brand stories, and corporate videos</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Gaming Content</h3>
+                    <p>Epic gaming montages, highlights, and streaming content</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>eCommerce Ads</h3>
+                    <p>Product showcases and promotional content that converts</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Color Grading</h3>
+                    <p>Professional color correction and cinematic grading</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Social Media Marketing</h3>
+                    <p>Complete social media strategy and content planning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Create Something <span class="gradient-text">Amazing</span>?</h2>
+            <p>Let's discuss your video editing and social media marketing needs</p>
+            <div class="cta-buttons">
+                <button class="btn-primary" id="contactBtn">
+                    <i class="fas fa-phone"></i>
+                    Contact Us
+                </button>
+                <button class="btn-secondary" id="demoReelBtn">
+                    <i class="fas fa-play"></i>
+                    View Demo Reel
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+                <a href="https://TikTok.com"><i class="fab fa-tiktok"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 Editkaro.in. All rights reserved. | Professional Video Editing & Social Media Marketing</p>
+        </div>
+    </footer>
+
+    <!-- Video Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightboxClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="lightbox-header">
+                <h3 id="lightboxTitle">Video Title</h3>
+            </div>
+            <div class="lightbox-video">
+                <video id="lightboxVideo" controls>
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Demo Reel Modal -->
+    <div class="demo-reel-modal" id="demoReelModal">
+        <div class="modal-content">
+            <button class="modal-close" id="demoReelClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <i class="fas fa-video gradient-text"></i>
+                <h3>Demo Reel Coming Soon!</h3>
+            </div>
+            <div class="modal-body">
+                <p>We're currently crafting an amazing showcase reel featuring our best work.</p>
+                <p>In the meantime, explore our portfolio above to see individual projects across different categories.</p>
+                <button class="btn-primary" id="closeModalBtn">Explore Portfolio</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="contact-modal" id="contactModal">
+        <div class="modal-content">
+            <button class="modal-close" id="contactClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <i class="fas fa-envelope gradient-text"></i>
+                <h3>Get In Touch</h3>
+            </div>
+            <div class="modal-body">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://instagram.com" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" class="social-icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
