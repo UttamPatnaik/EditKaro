@@ -37,3 +37,7 @@ EditKaro
 ├── index.html # Main HTML file
 ├── style.css # Stylesheet
 └── script.js # JavaScript for interactivity
+
+## 🌍 Live Demo
+
+🔗 
